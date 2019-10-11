@@ -18,6 +18,7 @@ import { BoardHomeModule } from './home/home.module';
 import { BoardAccountModule } from './account/account.module';
 import { BoardEntityModule } from './entities/entity.module';
 import * as moment from 'moment';
+import { BoardAppCustomBoardModule } from './custom-board/custom-board.module';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent, ErrorComponent } from './layouts';
 
@@ -34,6 +35,7 @@ import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent
     BoardCoreModule,
     BoardHomeModule,
     BoardAccountModule,
+    BoardAppCustomBoardModule,
     // jhipster-needle-angular-add-module JHipster will add new module here
     BoardEntityModule,
     BoardAppRoutingModule
